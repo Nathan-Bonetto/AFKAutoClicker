@@ -1,5 +1,5 @@
 # Created by Nathan Bonetto
-# Last updated: 12/6/21
+# Last updated: 12/7/21
 # IMPORTANT, MUST PIP INSTALL pywin32 (command is "pip install pywin32")
 # Program is an infinite loop, must use "CTR + C" in terminal to end it
 # Must change application to the name of application you want to use
@@ -37,7 +37,7 @@ def autopress():
             elif num == 3:
                 wsh.SendKeys("d")
             i += 1
-        time.sleep(random.randrange(600, 900))  # Time between button presses (in seconds), never remove/set to < 10
+        time.sleep(random.randrange(600, 830))  # Time between button presses (in seconds), never remove/set to < 10
 
 if __name__ == '__main__':
     autopress()
